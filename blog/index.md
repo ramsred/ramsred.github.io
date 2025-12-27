@@ -9,7 +9,7 @@ permalink: /blog/
 Short notes on building **reliable GenAI systems**, **tool safety**, and **privacy-preserving ML**.
 
 - **PolicyGraph series**: runtime enforcement, schema gates, and evaluation patterns
-- **Synthetic media**: detection, privacy, robustness
+- **Synthetic Voice**: detection, privacy, robustness
 
 ## Posts
 {% for post in site.posts %}
