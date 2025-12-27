@@ -1,0 +1,16 @@
+title: Venkata Rami Reddy Kallu
+description: Senior AI Engineer • Generative AI Systems • Safety & Governance • Privacy
+url: "https://venkataramireddykallu.com"
+
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: dark
+
+header_pages:
+  - about.md
+  - blog.md
