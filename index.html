@@ -1,15 +1,20 @@
+---
+layout: page
+title: Venkata Rami Reddy Kallu
+permalink: /
+---
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Venkata Rami Reddy Kallu</title>
-  <meta name="description" content="Generative AI Systems • Safety & Governance • Privacy-Preserving ML" />
+  <meta name="description" content="Senior AI Engineer • Generative AI Systems • Safety & Governance • Privacy-Preserving ML" />
   <style>
     :root{
       --bg:#0b1220;
       --card:#101b33;
-      --card2:#0f1930;
       --text:#e9eefc;
       --muted:#b7c3e8;
       --soft:#93a6db;
@@ -39,6 +44,7 @@
       gap:12px;margin-bottom:18px;
       color:var(--muted);
       font-size:14px;
+      flex-wrap:wrap;
     }
     .pill{
       display:inline-flex;align-items:center;gap:8px;
@@ -47,6 +53,13 @@
       color:var(--muted);
       white-space:nowrap;
     }
+    nav a{
+      margin-left:10px;
+      padding:8px 10px;
+      border-radius:10px;
+      border:1px solid transparent;
+    }
+    nav a:hover{border-color:var(--line);text-decoration:none}
     .hero{
       border:1px solid var(--line);
       background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
@@ -61,7 +74,7 @@
     .subtitle{
       margin:0 0 18px;
       color:var(--muted);
-      font-weight:600;
+      font-weight:700;
     }
     .lede{margin:0;color:var(--text);font-size:16.5px}
     .cta{
@@ -73,7 +86,7 @@
       border:1px solid var(--line);
       background:rgba(255,255,255,.04);
       color:var(--text);
-      font-weight:600;
+      font-weight:700;
       transition:transform .08s ease, background .15s ease;
     }
     .btn:hover{background:rgba(255,255,255,.08);text-decoration:none}
@@ -91,6 +104,8 @@
     @media (max-width: 860px){
       .grid{grid-template-columns:1fr}
       h1{font-size:34px}
+      nav{width:100%}
+      nav a{margin-left:0;margin-right:10px}
     }
     .card{
       border:1px solid var(--line);
@@ -108,6 +123,7 @@
     .kicker{
       display:flex;align-items:center;justify-content:space-between;gap:10px;
       margin-top:26px;margin-bottom:10px;
+      flex-wrap:wrap;
     }
     .kicker h2{margin:0;font-size:22px}
     .divider{height:1px;background:var(--line);margin:22px 0}
@@ -132,134 +148,125 @@
   <div class="wrap">
 
     <div class="topbar">
-      <div class="pill">Generative AI • Safety & Governance • Privacy-Preserving ML</div>
+      <div class="pill">Generative AI Systems • Safety & Governance • Privacy</div>
       <div class="pill">Apex, North Carolina</div>
+      <nav class="pill" aria-label="Site">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/blog/">Blog</a>
+      </nav>
     </div>
 
     <section class="hero">
       <h1>Venkata Rami Reddy Kallu</h1>
-      <p class="subtitle">Researcher | Generative AI Safety | Privacy-Preserving Systems</p>
+      <p class="subtitle">Senior AI Engineer | Generative AI Systems, Safety & Privacy</p>
 
       <p class="lede">
-        I build <strong>safe, privacy-preserving, and auditable</strong> generative AI systems —
-        focused on <strong>runtime enforcement</strong>, <strong>governance</strong>, and
-        <strong>adversarial robustness</strong> across text and audio modalities.
+        I design and build <strong>production-grade generative AI systems</strong> with
+        <strong>enforceable safety, privacy, and governance guarantees</strong> —
+        spanning <strong>LLM tool execution</strong>, <strong>runtime validation</strong>,
+        and <strong>adversarial robustness</strong> across text and audio.
       </p>
 
       <div class="cta">
         <a class="btn primary" href="https://github.com/ramsred/policygraph-mcp" target="_blank" rel="noreferrer">
-          PolicyGraph Repository
+          PolicyGraph (GitHub)
         </a>
         <a class="btn" href="mailto:venkataramireddy534@gmail.com">Email</a>
-        <!-- Optional: add your TechRxiv DOI link when approved -->
+        <!-- Add TechRxiv DOI link once live -->
         <!-- <a class="btn" href="YOUR_TECHRXIV_LINK" target="_blank" rel="noreferrer">TechRxiv Preprint</a> -->
       </div>
 
       <div class="grid">
         <div class="card">
-          <h2>About</h2>
+          <h2>What I do</h2>
           <p class="muted" style="margin-top:0">
-            I work at the intersection of <strong>Generative AI</strong>, <strong>system safety</strong>, and <strong>privacy</strong>,
-            focusing on how modern AI systems behave when deployed in <strong>real-world, high-trust environments</strong>.
+            My work sits at the boundary between <strong>engineering and applied research</strong>,
+            where production constraints require <strong>runtime enforcement</strong> rather than best-effort heuristics.
           </p>
+
           <p style="margin-bottom:8px">
-            My work emphasizes <strong>enforceable guarantees</strong> over best-effort prompting:
+            Areas I work on:
           </p>
           <ul>
             <li>Policy-gated tool execution for LLM agents</li>
             <li>Deterministic validation of tool inputs and outputs</li>
-            <li>Grounded, evidence-backed AI summarization</li>
+            <li>Evidence-backed summarization (anti-hallucination by construction)</li>
             <li>Privacy-preserving detection of synthetic media</li>
           </ul>
+
           <p class="muted" style="margin-top:12px;margin-bottom:0">
-            I’m particularly interested in systems that are <strong>auditable</strong>, <strong>reproducible</strong>,
-            and <strong>resistant to misuse</strong> — even when models behave unexpectedly or adversarially.
+            I’m especially interested in systems that are <strong>auditable</strong>, <strong>reproducible</strong>,
+            and <strong>resistant to misuse</strong> even when models behave unexpectedly or adversarially.
           </p>
         </div>
 
         <div class="card">
           <h2>Now</h2>
           <p class="muted" style="margin-top:0">
-            What I’m actively working on:
+            What I’m actively shipping and writing:
           </p>
           <ul>
-            <li>Shipping PolicyGraph as a reproducible safety runtime</li>
-            <li>Expanding OWASP-aligned evaluation and test coverage</li>
-            <li>Preparing follow-up research to extend model-independent guarantees</li>
+            <li>PolicyGraph: a reproducible safety runtime for MCP tool execution</li>
+            <li>OWASP-aligned evaluation + contract tests for agent safety</li>
+            <li>Follow-up work on runtime enforcement patterns (Paper #2 direction)</li>
           </ul>
 
           <div class="divider"></div>
 
-          <h2 style="margin-top:0">Research Interests</h2>
+          <h2 style="margin-top:0">Focus</h2>
           <div class="tagrow">
-            <span class="tag">Generative AI Safety</span>
+            <span class="tag">GenAI Systems</span>
+            <span class="tag">AI Safety</span>
             <span class="tag">AI Governance</span>
             <span class="tag">Tool-Using Agents</span>
             <span class="tag">Privacy-Preserving ML</span>
             <span class="tag">Synthetic Media Detection</span>
-            <span class="tag">Robust Evaluation</span>
           </div>
         </div>
       </div>
     </section>
 
     <div class="kicker">
-      <h2>Projects</h2>
-      <span class="small">Selected work (not a full resume)</span>
+      <h2>Featured work</h2>
+      <span class="small">Selected highlights (not a full resume)</span>
     </div>
 
     <section class="card">
       <h3>PolicyGraph</h3>
       <p class="muted" style="margin-top:0">
-        <strong>PolicyGraph</strong> is a policy-gated runtime for
-        <strong>safe and auditable Model Context Protocol (MCP) tool execution</strong>.
+        A policy-gated runtime for <strong>safe and auditable</strong> Model Context Protocol (MCP) tool execution.
       </p>
-
-      <p style="margin-bottom:8px">It enforces:</p>
       <ul>
         <li><strong>Default-deny</strong> tool authorization (operator allowlist)</li>
-        <li><strong>Schema-constrained planning</strong> (strict JSON only)</li>
-        <li><strong>Typed</strong> validation of tool outputs</li>
-        <li><strong>Evidence-locked</strong> summarization to prevent hallucinations</li>
+        <li><strong>Schema-constrained</strong> planning (strict JSON only)</li>
+        <li><strong>Typed</strong> output validation</li>
+        <li><strong>Evidence-locked</strong> summaries (grounded by verbatim quotes)</li>
       </ul>
-
-      <p class="muted" style="margin-top:12px;margin-bottom:0">
-        Designed as a <strong>governance layer</strong> (not an orchestration framework), providing
-        <strong>model-independent safety guarantees</strong> verified through deterministic evaluation.
-      </p>
-
       <div class="cta" style="margin-top:14px">
         <a class="btn primary" href="https://github.com/ramsred/policygraph-mcp" target="_blank" rel="noreferrer">
-          View Repository
+          View repository
         </a>
-        <!-- Add TechRxiv DOI link here once available -->
-        <!-- <a class="btn" href="YOUR_TECHRXIV_LINK" target="_blank" rel="noreferrer">Read Preprint</a> -->
       </div>
     </section>
 
     <div class="kicker">
-      <h2>Patent Highlight</h2>
+      <h2>Patent highlight</h2>
       <span class="small">Privacy + enforceability theme</span>
     </div>
 
     <section class="card">
-      <h3>Privacy-Preserving Synthetic Voice Detection (Filed Patent)</h3>
+      <h3>Privacy-Preserving Synthetic Voice Detection (Filed systems patent)</h3>
       <p class="muted" style="margin-top:0">
-        I’m a <strong>co-inventor on a filed patent</strong> focused on
+        I’m a <strong>co-inventor on a filed systems patent</strong> focused on
         <strong>privacy-preserving synthetic voice detection</strong> — detecting AI-generated/spoofed speech while
         minimizing <strong>speaker identity leakage</strong>.
       </p>
-      <p style="margin-bottom:8px">Key ideas:</p>
       <ul>
         <li>Detect AI-generated or spoofed speech reliably</li>
         <li>Preserve speaker anonymity and sensitive identity attributes</li>
         <li>Support deployment in privacy-sensitive and regulated settings</li>
       </ul>
-      <p class="muted" style="margin-top:12px;margin-bottom:0">
-        This complements my broader safety work by extending the same principles —
-        <strong>robustness</strong>, <strong>privacy</strong>, and <strong>enforceability</strong> —
-        from LLM tool systems to synthetic media detection.
-      </p>
     </section>
 
     <footer>
